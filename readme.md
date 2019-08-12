@@ -19,3 +19,9 @@ winpty docker run -d -p 2222:22 -w=//home//sam \
         -ti \
         sam:dev
 ```
+
+After running that, the development environment is now running in the background and you can ssh in:
+
+```
+ssh -i ~/projects/id_rsa sam@localhost -p 2222
+```
